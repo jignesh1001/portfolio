@@ -1,5 +1,19 @@
-import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaGitAlt } from "react-icons/fa";
-import { SiTailwindcss, SiJavascript, SiMongodb, SiNextdotjs, SiTypescript, SiRedux } from "react-icons/si";
+import {
+  FaReact,
+  FaNodeJs,
+  FaHtml5,
+  FaCss3Alt,
+  FaGitAlt,
+} from "react-icons/fa";
+import {
+  SiTailwindcss,
+  SiJavascript,
+  SiMongodb,
+  SiNextdotjs,
+  SiTypescript,
+  SiRedux,
+} from "react-icons/si";
+import { motion } from "framer-motion";
 
 const skills = [
   { name: "React", icon: <FaReact className="text-sky-400" /> },
@@ -17,8 +31,17 @@ const skills = [
 
 export default function Skills() {
   return (
-    <section id="skills" className="py-16">
-      <h2 className="text-2xl font-semibold mb-8 text-center">Skills & Technologies</h2>
+    <motion.section
+      id="skills"
+      initial={{ opacity: 0, scale: 0.95 }}
+      whileInView={{ opacity: 1, scale: 1 }}
+      transition={{ duration: 0.5 }}
+      viewport={{ once: true }}
+      className="py-16"
+    >
+      <h2 className="text-2xl font-semibold mb-8 text-center">
+        Skills & Technologies
+      </h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6  text-white">
         {skills.map((skill) => (
           <div
@@ -30,6 +53,6 @@ export default function Skills() {
           </div>
         ))}
       </div>
-    </section>
+    </motion.section>
   );
 }

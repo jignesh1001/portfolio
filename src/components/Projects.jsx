@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 const projects = [
   {
     name: "Portfolio Website",
@@ -21,7 +22,14 @@ const projects = [
 
 export default function Projects() {
   return (
-    <section id="projects" className="py-16">
+    <motion.section
+      id="projects"
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6 }}
+      viewport={{ once: true, amount: 0.3 }}
+      className="py-16"
+    >
       <h2 className="text-2xl font-semibold mb-8 text-center">Projects</h2>
 
       <div className="grid md:grid-cols-2 gap-6">
@@ -53,6 +61,6 @@ export default function Projects() {
           </div>
         ))}
       </div>
-    </section>
+    </motion.section>
   );
 }

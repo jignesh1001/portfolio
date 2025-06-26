@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 const experiences = [
   {
     company: "Nadcab Labs",
@@ -27,7 +29,14 @@ const experiences = [
 
 export default function Experience() {
   return (
-    <section id="experience" className="py-16 text-white">
+    <motion.section
+      id="experience"
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6 }}
+      viewport={{ once: true, amount: 0.3 }}
+      className="py-16 text-white"
+    >
       <h2 className="text-2xl font-semibold mb-8 text-center">Experience</h2>
 
       <div className="space-y-6">
@@ -58,6 +67,7 @@ export default function Experience() {
           </div>
         ))}
       </div>
-    </section>
+    </motion.section>
   );
 }
+
