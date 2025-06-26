@@ -62,5 +62,7 @@ export default function Projects() {
         ))}
       </div>
     </motion.section>
+    
+
   );
 }
