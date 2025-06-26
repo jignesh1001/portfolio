@@ -35,7 +35,7 @@ export default function Experience() {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6 }}
       viewport={{ once: true, amount: 0.3 }}
-      className="py-16 text-white"
+      className="py-6 text-white"
     >
       <h2 className="text-2xl font-semibold mb-8 text-center">Experience</h2>
 
