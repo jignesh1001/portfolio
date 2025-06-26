@@ -13,7 +13,7 @@ function App() {
     <Layout>
       <Hero />
       <About />
-      <Skills/>
+      {/* <Skills/> */}
       <Projects/>
       <Experience />
       <Footer />
