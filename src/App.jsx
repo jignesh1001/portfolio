@@ -7,9 +7,12 @@ import Experience from './components/Experience';
 import Footer from './components/Footer';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
+import CursorDot from "./components/CursorDot";
 
 function App() {
   return (
+    <div className="relative">
+    <CursorDot />
     <Layout>
       <Hero />
       <About />
@@ -18,6 +21,8 @@ function App() {
       <Experience />
       <Footer />
     </Layout>
+    
+    </div>
   );
 }
 
