@@ -21,7 +21,7 @@ export default function CursorDot() {
 
   return (
     <motion.div
-      className="fixed top-0 left-0 w-4 h-4 rounded-full bg-white pointer-events-none z-[9999] mix-blend-difference"
+      className="fixed top-0 left-0 w-4 h-4 rounded-full bg-gray-700 pointer-events-none z-[9999] mix-blend-difference"
       style={{
         translateX: springX,
         translateY: springY,

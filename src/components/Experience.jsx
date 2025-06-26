@@ -43,7 +43,7 @@ export default function Experience() {
         {experiences.map((exp) => (
           <div
             key={exp.company}
-            className="bg-gray-800 rounded-xl p-6 shadow-md hover:shadow-lg transition"
+            className=" rounded-xl p-6 shadow-md hover:border border-gray-700"
           >
             <div className="flex justify-between items-start mb-2">
               <h3 className="text-lg font-bold">{exp.company}</h3>
@@ -58,7 +58,7 @@ export default function Experience() {
               {exp.tech.map((tech) => (
                 <span
                   key={tech}
-                  className="bg-gray-700 px-2 py-1 rounded-full text-gray-200"
+                  className="bg-gray-800 px-2 py-1 rounded-full text-gray-200"
                 >
                   {tech}
                 </span>
