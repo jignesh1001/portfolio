@@ -2,29 +2,14 @@ import { motion } from "framer-motion";
 
 const experiences = [
   {
-    company: "Nadcab Labs",
-    role: "Frontend Engineer",
-    period: "Apr 2024 – Apr 2025",
-    tech: ["Next.js", "Web3", "React"],
+    company: "Zeel Infotech",
+    role: "Software Engineer",
+    period: "June 2024 – Present",
+    tech: ["Delphi", "MySQL", "PLSQL"],
     description:
-      "Built scalable and responsive UIs for blockchain-based applications, collaborating with backend and product teams.",
+      "Design, develop, and maintain high-end customized communication and networking solutions using Delphi, focusing on regulatory compliance, network management, and monitoring systems."
   },
-  {
-    company: "Hackingly",
-    role: "Frontend Intern",
-    period: "Dec 2023 – Mar 2024",
-    tech: ["Next.js", "Node.js", "React"],
-    description:
-      "Worked on a modern SaaS dashboard using Next.js and integrated backend APIs to enhance user experience.",
-  },
-  {
-    company: "Freelance",
-    role: "Full Stack Developer",
-    period: "Jul 2020 – Mar 2024",
-    tech: ["Next.js", "Node.js", "React"],
-    description:
-      "Delivered full-stack web apps for startups and creators, focusing on performance, scalability, and maintainability.",
-  },
+  
 ];
 
 export default function Experience() {
