@@ -1,23 +1,12 @@
 import { motion } from "framer-motion";
 const projects = [
   {
-    name: "Portfolio Website",
-    description: "My personal portfolio built with Next.js and Tailwind CSS.",
-    link: "https://sudorohan.xyz",
-    tech: ["Next.js", "Tailwind", "Framer Motion"],
+    name: "Jobsy",
+    description: " full-stack job board application that allows users to browse, post, and manage job listings with a clean, responsive UI and secure authentication..",
+    link: "https://jobsy-delta.vercel.app/",
+    tech: ["Reactjs", "Expressjs", "Tailwind", "MongoDB"],
   },
-  {
-    name: "E-commerce Store",
-    description: "A modern online store with cart, auth and Stripe payments.",
-    link: "https://github.com/jignesh1001/ecommerce",
-    tech: ["React", "Redux", "Node.js", "MongoDB"],
-  },
-  {
-    name: "Dev Blog Platform",
-    description: "A blog platform with Markdown support and admin panel.",
-    link: "https://github.com/jignesh1001/dev-blog",
-    tech: ["Next.js", "Prisma", "PostgreSQL"],
-  },
+  
 ];
 
 export default function Projects() {
