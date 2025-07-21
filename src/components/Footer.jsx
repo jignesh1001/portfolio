@@ -15,8 +15,8 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="text-center py-8 text-gray-400 text-sm">
-      <div className="flex justify-center gap-6 text-2xl">
+    <footer className=" py-8 text-gray-400 text-sm">
+      <div className="flex justify-center gap-6 text-xl">
         <a href="https://github.com/jignesh1001" target="_blank" rel="noopener noreferrer" className="hover:text-white">
           <FaGithub />
         </a>
@@ -24,7 +24,7 @@ export default function Footer() {
           <FaLinkedin />
         </a>
       </div>
-      <p className="mt-4 text-xs">© {new Date().getFullYear()} Jignesh Gurav. Built with ❤️</p>
+      {/* <p className="mt-4 text-xs">© {new Date().getFullYear()} Jignesh Gurav. Built with ❤️</p> */}
     </footer>
   );
 }

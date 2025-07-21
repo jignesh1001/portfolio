@@ -7,31 +7,30 @@ const experiences = [
     period: "June 2024 – Present",
     tech: ["Delphi", "MySQL", "PLSQL"],
     description:
-      "Design, develop, and maintain high-end customized communication and networking solutions using Delphi, focusing on regulatory compliance, network management, and monitoring systems."
+      "Design, develop, and maintain high-end customized communication and networking solutions using Delphi, focusing on regulatory compliance, network management, and monitoring systems.",
   },
-  
 ];
 
 export default function Experience() {
   return (
     <motion.section
       id="experience"
-      initial={{ opacity: 0, y: 50 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.6 }}
-      viewport={{ once: true, amount: 0.3 }}
-      className="py-6 text-white"
+      initial={{ opacity: 0, y: 30, scale: 0.98 }}
+      whileInView={{ opacity: 1, y: 0, scale: 1 }}
+      transition={{ duration: 0.5, ease: "easeInOut" }}
+      viewport={{ once: true, amount: 0.2 }}
+      className="text-white"
     >
-      <h2 className="text-2xl font-semibold mb-8 text-center">Experience</h2>
+      <h2 className="text-l ">Experience</h2>
 
       <div className="space-y-6">
         {experiences.map((exp) => (
           <div
             key={exp.company}
-            className=" rounded-xl p-6 shadow-md hover:border border-gray-700"
+            className=" p-3 shadow-md border border-transparent hover:border-gray-700 transition-colors duration-300"
           >
             <div className="flex justify-between items-start mb-2">
-              <h3 className="text-lg font-bold">{exp.company}</h3>
+              <h3 className="text-sm ">{exp.company}</h3>
               <span className="text-sm text-gray-400">{exp.period}</span>
             </div>
 
@@ -55,4 +54,3 @@ export default function Experience() {
     </motion.section>
   );
 }
-

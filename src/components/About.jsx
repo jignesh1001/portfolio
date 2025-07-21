@@ -9,7 +9,7 @@ export default function About() {
       viewport={{ once: true }}
       className="py-3"
     >
-      <h2 className="text-2xl font-semibold mb-4">About Me</h2>
+      <h2 className="text-xl font-semibold mb-4">About Me</h2>
       <p>
         Full Stack Developer with 1 year of experience in designing and developing web applications using modern technologies. Skilled in both frontend and backend development, with a strong focus on building scalable, user-centric solutions. Committed to continuous learning and delivering high-quality code.
       </p>
