@@ -37,7 +37,7 @@ export default function Projects() {
             key={project.name}
             className=" p-3 shadow-md border border-transparent hover:border-gray-700 transition-colors duration-300 "
           >
-            <h3 className="text-sm mb-2">
+            <h3 className=" mb-2">
               <a
               href={project.isLive ? project.link : project.githubLink}
               target="_blank"
@@ -48,7 +48,7 @@ export default function Projects() {
               {project.name}
             </a>
             </h3>
-            <p className="text-sm text-gray-300 mb-4">{project.description}</p>
+            <p className=" text-gray-300 mb-4">{project.description}</p>
             <div className="flex flex-wrap gap-2 mb-4">
               {project.tech.map((tech) => (
                 <span

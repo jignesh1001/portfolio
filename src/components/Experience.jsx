@@ -21,7 +21,7 @@ export default function Experience() {
       viewport={{ once: true, amount: 0.2 }}
       className="text-white"
     >
-      <h2 className="text-l ">Experience</h2>
+      <h2 className="">Experience</h2>
 
       <div className="space-y-6">
         {experiences.map((exp) => (
@@ -30,15 +30,15 @@ export default function Experience() {
             className=" p-3 shadow-md border border-transparent hover:border-gray-700 transition-colors duration-300"
           >
             <div className="flex justify-between items-start mb-2">
-              <h3 className="text-sm ">{exp.company}</h3>
-              <span className="text-sm text-gray-400">{exp.period}</span>
+              <h3 className=" ">{exp.company}</h3>
+              <span className=" text-gray-400">{exp.period}</span>
             </div>
 
-            <p className="text-sm text-cyan-400 mb-2">{exp.role}</p>
+            <p className=" text-cyan-400 mb-2">{exp.role}</p>
 
-            <p className="text-sm text-gray-300 mb-4">{exp.description}</p>
+            <p className=" text-gray-300 mb-4">{exp.description}</p>
 
-            <div className="flex flex-wrap gap-2 text-xs">
+            <div className="flex flex-wrap gap-2 ">
               {exp.tech.map((tech) => (
                 <span
                   key={tech}
