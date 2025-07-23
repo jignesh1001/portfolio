@@ -14,23 +14,25 @@ export default function Hero() {
       <TypeAnimation
         sequence={[
           "Jignesh Gurav", // text to type
-          10000, // wait 1s
+          1000, // wait 1s
           // erase
           // wait 0.5s
         ]}
         wrapper="h1"
         cursor={false}
+      
         className="mt-4 text-xl"
       />
       <TypeAnimation
         sequence={[
           "Mumbai, India", // text to type
-          10000, // wait 1s
+          1000, // wait 1s
           // erase
           // wait 0.5s
         ]}
         wrapper="p"
         cursor={false}
+        
         className="mt-1 text-sm text-gray-500"
       />
 
