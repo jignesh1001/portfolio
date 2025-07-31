@@ -8,14 +8,7 @@ const projects = [
     githubLink: "https://github.com/jignesh1001/jobsy",
     isLive : true
   },
-  {
-    name: "easypark",
-    description: "A Django-based parking app offering real-time spot availability, secure payments, reservations, navigation assistance, user profiles, and reviews.",
-    link: "",
-    tech: ["Django", "HTML", "CSS", "Bootstrap"],
-    githubLink: "https://github.com/jignesh1001/easypark",
-    isLive : false
-  },
+
   
 ];
 
