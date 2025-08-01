@@ -6,7 +6,7 @@ const projects = [
     link: "https://jobsy-kappa.vercel.app/",
     tech: ["Reactjs", "Expressjs", "Tailwind", "MongoDB"],
     githubLink: "https://github.com/jignesh1001/jobsy",
-    isLive : true
+    isLive : false
   },
 
   
