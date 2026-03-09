@@ -8,7 +8,14 @@ const projects = [
     githubLink: "https://github.com/jignesh1001/jobsy",
     isLive : true
   },
-
+   {
+    name: "data-pusher",
+    description: "Node.js Express web application that receives JSON data for an account and forwards it to various destinations using webhook URLs",
+    link: "https://github.com/jignesh1001/datapusher",
+    tech: ["Bulljs", "Expressjs", "Redis", "MongoDB","swagger"],
+    githubLink: "https://github.com/jignesh1001/datapusher",
+    isLive : false
+  },
   
 ];
 
