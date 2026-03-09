@@ -4,7 +4,7 @@ const experiences = [
   {
     company: "Zeel Infotech",
     role: "Software Engineer",
-    period: "June 2024 – Present",
+    period: "June 2024 – May 2025",
     tech: ["Delphi", "MySQL", "PLSQL"],
     description:
       "Design, develop, and maintain high-end customized communication and networking solutions using Delphi, focusing on regulatory compliance, network management, and monitoring systems.",
