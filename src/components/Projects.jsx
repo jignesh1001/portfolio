@@ -16,6 +16,14 @@ const projects = [
     githubLink: "https://github.com/jignesh1001/datapusher",
     isLive : false
   },
+  {
+    name: "expense-tracker",
+    description: "A full-stack web application for managing travel expense reimbursements. Admins can track user expenses and process reimbursements accurately.",
+    link: "https://github.com/jignesh1001/expense-tracker",
+    tech: ["React", "Expressjs", "PostgreSQL"],
+    githubLink: "https://github.com/jignesh1001/expense-tracker",
+    isLive : false
+  },
   
 ];
 
