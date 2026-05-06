@@ -22,7 +22,7 @@ const projects = [
     link: "http://ec2-13-232-66-239.ap-south-1.compute.amazonaws.com",
     tech: ["React", "Expressjs", "PostgreSQL"],
     githubLink: "https://github.com/jignesh1001/expense-tracker",
-    isLive : false
+    isLive : true
   },
   
 ];
