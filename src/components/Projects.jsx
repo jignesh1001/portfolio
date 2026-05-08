@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { FaGithub } from "react-icons/fa";
 const projects = [
   {
     name: "Jobsy",
@@ -6,15 +7,15 @@ const projects = [
     link: "https://jobsy-kappa.vercel.app/",
     tech: ["Reactjs", "Expressjs", "Tailwind", "MongoDB"],
     githubLink: "https://github.com/jignesh1001/jobsy",
-    isLive : true
+    isLive: true
   },
-   {
+  {
     name: "Data-pusher",
     description: "Node.js Express web application that receives JSON data for an account and forwards it to various destinations using webhook URLs",
     link: "https://datapusher-zind.onrender.com/",
-    tech: ["Bulljs", "Expressjs", "Redis", "MongoDB","swagger"],
+    tech: ["Bulljs", "Expressjs", "Redis", "MongoDB", "swagger"],
     githubLink: "https://github.com/jignesh1001/datapusher",
-    isLive : true
+    isLive: true
   },
   {
     name: "Expense-tracker",
@@ -22,9 +23,9 @@ const projects = [
     link: "http://ec2-13-232-66-239.ap-south-1.compute.amazonaws.com",
     tech: ["React", "Expressjs", "PostgreSQL"],
     githubLink: "https://github.com/jignesh1001/expense-tracker",
-    isLive : true
+    isLive: true
   },
-  
+
 ];
 
 export default function Projects() {
@@ -45,16 +46,52 @@ export default function Projects() {
             key={project.name}
             className=" p-3 shadow-md border border-transparent hover:border-gray-700 transition-colors duration-300 "
           >
-            <h3 className=" mb-2">
+            {/* <h3 className=" mb-2">
               <a
-              href={project.isLive ? project.link : project.githubLink}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-cyan-400 hover:underline text-sm"
-            
-            >
-              {project.name}
-            </a>
+                href={project.isLive ? project.link : project.githubLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-cyan-400 hover:underline text-sm"
+
+              >
+                {project.name}
+              </a>
+              <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="hover:text-white">
+                <span><FaGithub /></span>
+              </a>
+            </h3> */}
+            <h3 className="mb-2 flex items-center gap-3">
+              {/* Project Name */}
+              <a
+                href={project.isLive ? project.link : project.githubLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-cyan-400 hover:underline text-sm"
+              >
+                {project.name}
+              </a>
+
+              {/* GitHub Link */}
+              <a
+                href={project.githubLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-white"
+              >
+                <FaGithub />
+              </a>
+
+              {/* Live Link */}
+              {project.isLive && (
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-cyan-400 text-sm"
+                >
+                  Live
+                </a>
+              )}
             </h3>
             <p className=" text-gray-300 mb-4">{project.description}</p>
             <div className="flex flex-wrap gap-2 mb-4">
@@ -67,13 +104,13 @@ export default function Projects() {
                 </span>
               ))}
             </div>
-            
+
           </div>
         ))}
       </div>
-      <br/>
+      <br />
     </motion.section>
-    
+
 
   );
 }
