@@ -11,7 +11,7 @@ export default function About() {
     >
       <h2 className="text-xl font-semibold mb-4">About Me</h2>
       <p>
-        Full Stack Developer with 1 year of experience in designing and developing web applications using modern technologies. Skilled in both frontend and backend development, with a strong focus on building scalable, user-centric solutions. Committed to continuous learning and delivering high-quality code.
+        Full-stack developer who ships clean, production-ready web apps end to end. I like solving real problems with pragmatic architecture — React/Node on the frontend and backend, with a growing focus on scalable, queue-driven systems.
       </p>
       <br />
     </motion.section>

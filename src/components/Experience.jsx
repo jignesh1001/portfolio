@@ -7,7 +7,7 @@ const experiences = [
     period: "June 2024 – May 2025",
     tech: ["Delphi", "MySQL", "PLSQL"],
     description:
-      "Design, develop, and maintain high-end customized communication and networking solutions using Delphi, focusing on regulatory compliance, network management, and monitoring systems.",
+      "Built and maintained enterprise communication and networking software in Delphi, supporting regulatory compliance and real-time network monitoring for client systems."
   },
 ];
 

@@ -3,7 +3,7 @@ import { FaGithub } from "react-icons/fa";
 const projects = [
   {
     name: "Jobsy",
-    description: " full-stack job board application that allows users to browse, post, and manage job listings with a clean, responsive UI and secure authentication..",
+    description: "Full-stack job board with secure auth, employer/candidate roles, and job posting & application workflows. Built for a clean, fast browsing experience across devices.",
     link: "https://jobsy-kappa.vercel.app/",
     tech: ["Reactjs", "Expressjs", "Tailwind", "MongoDB"],
     githubLink: "https://github.com/jignesh1001/jobsy",
@@ -11,7 +11,7 @@ const projects = [
   },
   {
     name: "Data-pusher",
-    description: "Node.js Express web application that receives JSON data for an account and forwards it to various destinations using webhook URLs",
+    description: "Webhook delivery service that ingests JSON events per account and reliably fans them out to multiple destination URLs — built with a Redis-backed queue (BullJS) for retry handling and async processing at scale.",
     link: "https://datapusher-zind.onrender.com/",
     tech: ["Bulljs", "Expressjs", "Redis", "MongoDB", "swagger"],
     githubLink: "https://github.com/jignesh1001/datapusher",
@@ -19,7 +19,7 @@ const projects = [
   },
   {
     name: "Expense-tracker",
-    description: "A full-stack web application for managing travel expense reimbursements. Admins can track user expenses and process reimbursements accurately.",
+    description: "Travel expense reimbursement platform with role-based access — employees submit expenses, admins review and process reimbursements with a full audit trail. Deployed on AWS EC2.",
     link: "http://ec2-13-232-66-239.ap-south-1.compute.amazonaws.com",
     tech: ["React", "Expressjs", "PostgreSQL"],
     githubLink: "https://github.com/jignesh1001/expense-tracker",
