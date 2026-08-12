@@ -15,7 +15,7 @@ const projects = [
     link: "https://datapusher-zind.onrender.com/",
     tech: ["Bulljs", "Expressjs", "Redis", "MongoDB", "swagger"],
     githubLink: "https://github.com/jignesh1001/datapusher",
-    isLive: true
+    isLive: false
   },
   {
     name: "Expense-tracker",
@@ -23,7 +23,7 @@ const projects = [
     link: "http://ec2-13-232-66-239.ap-south-1.compute.amazonaws.com",
     tech: ["React", "Expressjs", "PostgreSQL"],
     githubLink: "https://github.com/jignesh1001/expense-tracker",
-    isLive: true
+    isLive: false
   },
 
 ];
