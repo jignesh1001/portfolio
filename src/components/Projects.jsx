@@ -14,7 +14,7 @@ const projects = [
     name: "Data-pusher",
     description: "Webhook delivery service that ingests JSON events per account and reliably fans them out to multiple destination URLs — built with a Redis-backed queue (BullJS) for retry handling and async processing at scale.",
     link: "https://datapusher-zind.onrender.com/",
-    tech: ["Bulljs", "Expressjs", "Redis", "MongoDB", "swagger"],
+    tech: ["Bulljs", "Expressjs", "Redis", "MongoDB"],
     githubLink: "https://github.com/jignesh1001/datapusher",
     isLive: false
   },
@@ -22,7 +22,7 @@ const projects = [
     name: "Expense-tracker",
     description: "Travel expense reimbursement platform with role-based access — employees submit expenses, admins review and process reimbursements with a full audit trail. Deployed on AWS EC2.",
     link: "http://ec2-13-232-66-239.ap-south-1.compute.amazonaws.com",
-    tech: ["React", "Expressjs", "PostgreSQL"],
+    tech: ["React", "Expressjs", "PostgreSQL",'AWS ec2'],
     githubLink: "https://github.com/jignesh1001/expense-tracker",
     isLive: false
   },

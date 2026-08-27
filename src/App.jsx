@@ -28,7 +28,7 @@ import CursorDot from "./components/CursorDot";
 
 function App() {
   return (
-    <div className="relative bg-black text-white min-h-screen">
+    <div className="relative bg-black text-white  min-h-screen">
       <CursorDot />
       <div className="max-w-3xl mx-auto px-4"> {/* <-- key layout styling */}
         <Layout>
