@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { FaGithub } from "react-icons/fa";
+import { GoArrowUpRight } from "react-icons/go";
 const projects = [
   {
     name: "Jobsy",
@@ -46,7 +47,7 @@ export default function Projects() {
             key={project.name}
             className=" p-3 shadow-md border border-transparent hover:border-gray-700 transition-colors duration-300 "
           >
-            {/* <h3 className=" mb-2">
+              {/* <h3 className=" mb-2">
               <a
                 href={project.isLive ? project.link : project.githubLink}
                 target="_blank"
@@ -59,8 +60,8 @@ export default function Projects() {
               <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="hover:text-white">
                 <span><FaGithub /></span>
               </a>
-            </h3> */}
-            <h3 className="mb-2 flex items-center gap-3">
+            </h3>  */}
+            <h3 className="mb-1 flex items-center gap-2">
               {/* Project Name */}
               <a
                 href={project.isLive ? project.link : project.githubLink}
@@ -72,14 +73,14 @@ export default function Projects() {
               </a>
 
               {/* GitHub Link */}
-              <a
+              {/* <a
                 href={project.githubLink}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-white"
+                className="hover:text-cyan-400"
               >
                 <FaGithub />
-              </a>
+              </a> */}
 
               {/* Live Link */}
               {project.isLive && (
@@ -89,7 +90,7 @@ export default function Projects() {
                   rel="noopener noreferrer"
                   className="hover:text-cyan-400 text-sm"
                 >
-                  Live
+                  <GoArrowUpRight />
                 </a>
               )}
             </h3>

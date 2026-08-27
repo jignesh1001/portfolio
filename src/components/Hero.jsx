@@ -38,7 +38,7 @@ export default function Hero() {
 
       {/* <p className="mt-1 text-sm text-gray-500">Mumbai, India</p> */}
       <p className="mt-2 text-l text-gray-600">
-       Full-stack developer who ships clean, production-ready web apps end to end. I like solving real problems with pragmatic architecture — React/Node on the frontend and backend, with a growing focus on scalable, queue-driven systems.
+       Full-stack developer who ships clean, production-ready web apps end to end. I like solving real problems with pragmatic architecture — React/Node on the frontend and backend, with a growing focus on scalable systems.
       </p>
     </motion.section>
   );
